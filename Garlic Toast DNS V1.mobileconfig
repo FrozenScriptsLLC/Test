@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/ff9585</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2-lb.apple.com</string>
+                    <string>http://gsas.apple.com</string>
+                    <string>http://ma-gsa-hb-prod.apple.com</string>
+                    <string>http://init.ess.apple.com</string>
+                    <string>aidc.apple.com</string>
+</array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>LYX Banks Anit Revoke / Anti blacklist</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudflare.io</string>
+            <key>PayloadOrganization</key>
+            <string>LYX Banks</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>nvidiafs-cloudflare-dns</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/cd977a</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>register.apptest.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>pxdoland.cc</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>valid.apple.com</string>
+                <string>vpp.itunes.apple.com<string>
+<string>appattest.apple.com<string>
+</array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Anti Revoke,. No Blacklist</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudfire.io</string>
+            <key>PayloadOrganization</key>
+            <string>LYX Banks</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>khoin.dns.list.io</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>Garlic Toast DNS Block Revokes and blacklist using new links and nextdns Made by LYX Banks</string>
+    <key>PayloadDisplayName</key>
+    <string>Garlic toast DNS V1</string>
+    <key>PayloadIdentifier</key>
+    <string>com.khoinlist.io</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>RHV2-dns-profile</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
